@@ -36,7 +36,7 @@ Example add-on configuration:
 }
 ```
 
-## [_Proxmox VE_]  (https://www.proxmox.com/proxmox-ve)
+## [_Proxmox VE_](https://www.proxmox.com/proxmox-ve)
 
 _Proxmox VE_ already use NoVNC to control VMs in his own web interface, but it is possible to enable the VNC access. 
 
