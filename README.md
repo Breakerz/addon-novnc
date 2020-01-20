@@ -35,3 +35,9 @@ Example add-on configuration:
   ]
 }
 ```
+
+## [_Proxmox VE_]  (https://www.proxmox.com/proxmox-ve)
+
+Proxmox VE already use NoVNC to control VMs in his own web interface, but it is possible to enable the VNC access. 
+
+[Proxmox VE docs] (https://pve.proxmox.com/wiki/VNC_Client_Access)

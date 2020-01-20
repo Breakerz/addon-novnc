@@ -1,18 +1,21 @@
 ## About
 
-[NoVNC](https://novnc.com/info.html) is a HTML VNC client. This addon can handle multiples instances. 
+[_NoVNC_](https://novnc.com/info.html) is a HTML VNC client. This add-on can handle multiples instances. 
 
 
 ## Installation
 
 The installation of this add-on is pretty straightforward and not different in
-comparison to installing any other Hass.io add-on.
+comparison to installing any other [_Hass.io_](https://www.home-assistant.io/hassio/) add-on.
+
+
+![screenshot](images/screenshot.png)
 
 ## Configuration
 
-Each parameters is mandatory (name, host, port). Add entry in settings array for earch vnc server. 
+Each parameter is mandatory (name, host, port). Add entry in settings array for each vnc server. 
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the add-on after changing the configuration._
 
 Example add-on configuration:
 
@@ -32,3 +35,9 @@ Example add-on configuration:
   ]
 }
 ```
+
+## [_Proxmox VE_]  (https://www.proxmox.com/proxmox-ve)
+
+Proxmox VE already use NoVNC to control VMs in his own web interface, but it is possible to enable the VNC access. 
+
+[Proxmox VE docs] (https://pve.proxmox.com/wiki/VNC_Client_Access)
