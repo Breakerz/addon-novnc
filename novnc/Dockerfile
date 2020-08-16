@@ -1,4 +1,4 @@
-FROM hassioaddons/base:6.0.1
+FROM hassioaddons/base:8.0.1
 
 ENV HOME=/root \
 	DEBIAN_FRONTEND=noninteractive \
